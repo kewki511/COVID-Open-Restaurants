@@ -40,8 +40,6 @@ $.ajax({
     for (let i=0; i<data.response.venues.length; i++) {
       const venue = data.response.venues[i];
       console.log(venue.name);
-      const phone = data.response.venues[i].contact.formattedPhone;
-      console.log(phone);
       const address = venue.location.address;
       console.log(address);
 
